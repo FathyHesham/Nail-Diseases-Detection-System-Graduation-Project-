@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Nail Diseases Detection</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
+	
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
+	<link href="{{ url_for('static', filename='css/Style_Home.css') }}" rel="stylesheet">      
+	<link href="{{ url_for('static', filename='css/Style_Table.css') }}" rel="stylesheet">      
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">      
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">      
+
+</head>
+<nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AI Model</a>
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Help</button>
+        </div>
+    </nav>
+<body>
+       <!-- Navbar Start -->
+       <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Nail Diseases Detection</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+	
+	<center>
+	<div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h6>Your data has been saved</h6>	
+     <button onclick="window.location.href = 'predict';" type="button" class="btn btn-primary mt-5 next">Next Page</button>
+	</div>
+	</center>
+	
+	
+	
+    <!-- Search Result End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    
+    <!-- Template Javascript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/main2.js') }}" type="text/javascript"></script>    
+
+	
+</body>
+</html>
